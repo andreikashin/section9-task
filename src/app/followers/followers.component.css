@@ -1,0 +1,14 @@
+.follower-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.follower-content {
+    display: flex;
+}
+
+.follower-body {
+    float:left;
+}

@@ -1,0 +1,11 @@
+<ul class="list-unstyled">
+    <li *ngFor="let follower of followers | slice:0:10; index as idx" class="media my-4">
+        <div class="follower-content">
+          <img class="mr-3 follower-avatar" [src]="follower.avatar_url">
+          <div class="media-body follower-body">
+            <h4 class="mt-0 mb-1"><b>{{ follower.login }}</b></h4>
+            <a [href]="follower.html_url">{{ follower.html_url }}</a>
+          </div>
+        </div>
+    </li>
+  </ul>

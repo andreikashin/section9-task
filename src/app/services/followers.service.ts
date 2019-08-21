@@ -7,7 +7,7 @@ import { DataService } from './data.service';
 })
 
 export class FollowersService extends DataService {
-  static url = "https://jsonplaceholder.typicode.com/posts";
+  static url = "https://api.github.com/users/mosh-hamedani/followers";
 
   constructor(http: Http) {
     super(FollowersService.url, http);
